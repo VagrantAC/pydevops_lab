@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+  <title type="text">O'Reilly Radar</title>
+  <subtitle type="text">Insight, analysis, and research about emerging technologies.</subtitle>
+  <link rel="alternate" type="text/html" href="https://www.oreilly.com/radar/"/>
+  <link rel="self" type="application/atom+xml" href="https://feeds.feedburner.com/oreilly/radar"/>
+  <id>tag:oreilly.com,2005-01-01:/radar</id>
+  <updated>2024-03-15T10:00:00Z</updated>
+  <rights>Copyright 2024, O'Reilly Media</rights>
+  <generator uri="https://www.oreilly.com">O'Reilly Radar Feed Generator</generator>
+  <author>
+    <name>O'Reilly Media</name>
+    <email>webmaster@oreilly.com</email>
+  </author>
+  <feedburner:info uri="oreilly/radar"/>
+
+  <entry>
+    <title type="text">The Future of AI in DevOps</title>
+    <link rel="alternate" type="text/html" href="https://www.oreilly.com/radar/ai-devops-future"/>
+    <id>tag:oreilly.com,2024-03-15:/radar/ai-devops-future</id>
+    <published>2024-03-15T09:00:00Z</published>
+    <updated>2024-03-15T09:00:00Z</updated>
+    <summary type="text">
+      Exploring how artificial intelligence is transforming DevOps practices and automation workflows.
+    </summary>
+    <author>
+      <name>John Doe</name>
+      <email>john@oreilly.com</email>
+    </author>
+    <category term="AI" label="Artificial Intelligence"/>
+    <category term="DevOps" label="DevOps"/>
+  </entry>
+
+  <entry>
+    <title type="text">Container Security Best Practices</title>
+    <link rel="alternate" type="text/html" href="https://www.oreilly.com/radar/container-security"/>
+    <id>tag:oreilly.com,2024-03-14:/radar/container-security</id>
+    <published>2024-03-14T14:30:00Z</published>
+    <updated>2024-03-14T14:30:00Z</updated>
+    <summary type="text">
+      Essential security practices for containerized applications and Kubernetes deployments.
+    </summary>
+    <author>
+      <name>Jane Smith</name>
+      <email>jane@oreilly.com</email>
+    </author>
+    <category term="Security" label="Security"/>
+    <category term="Containers" label="Containers"/>
+  </entry>
+
+  <entry>
+    <title type="text">Serverless Architecture Patterns</title>
+    <link rel="alternate" type="text/html" href="https://www.oreilly.com/radar/serverless-patterns"/>
+    <id>tag:oreilly.com,2024-03-13T11:15:00Z</id>
+    <published>2024-03-13T11:15:00Z</published>
+    <updated>2024-03-13T11:15:00Z</updated>
+    <summary type="text">
+      Common patterns and best practices for building serverless applications.
+    </summary>
+    <author>
+      <name>Bob Wilson</name>
+      <email>bob@oreilly.com</email>
+    </author>
+    <category term="Serverless" label="Serverless"/>
+    <category term="Architecture" label="Architecture"/>
+  </entry>
+
+  <entry>
+    <title type="text">Python for DevOps Automation</title>
+    <link rel="alternate" type="text/html" href="https://www.oreilly.com/radar/python-devops"/>
+    <id>tag:oreilly.com,2024-03-12T16:45:00Z</id>
+    <published>2024-03-12T16:45:00Z</published>
+    <updated>2024-03-12T16:45:00Z</updated>
+    <summary type="text">
+      Practical examples of using Python for DevOps automation and infrastructure management.
+    </summary>
+    <author>
+      <name>Alice Johnson</name>
+      <email>alice@oreilly.com</email>
+    </author>
+    <category term="Python" label="Python"/>
+    <category term="DevOps" label="DevOps"/>
+  </entry>
+
+  <entry>
+    <title type="text">Cloud-Native Monitoring Strategies</title>
+    <link rel="alternate" type="text/html" href="https://www.oreilly.com/radar/cloud-monitoring"/>
+    <id>tag:oreilly.com,2024-03-11T13:20:00Z</id>
+    <published>2024-03-11T13:20:00Z</published>
+    <updated>2024-03-11T13:20:00Z</updated>
+    <summary type="text">
+      Effective monitoring approaches for cloud-native applications and microservices.
+    </summary>
+    <author>
+      <name>Charlie Brown</name>
+      <email>charlie@oreilly.com</email>
+    </author>
+    <category term="Monitoring" label="Monitoring"/>
+    <category term="Cloud" label="Cloud"/>
+  </entry>
+
+</feed>
