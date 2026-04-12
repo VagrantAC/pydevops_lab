@@ -1,18 +1,21 @@
 [project]
 name = "pydevops-lab"
 version = "0.1.0"
-description = "Python DevOps 实验室 - 基于《基于 Python 的 DevOps》一书的学习项目"
+description = "Python DevOps 实验室 - 基于《 Python 的 DevOps》一书的学习项目"
 authors = [
     {name = "VagrantAC",email = "vagrantac@126.com"}
 ]
 readme = "README.md"
-requires-python = "^3.10"
+requires-python = ">=3.10"
 dependencies = [
     "pytest (>=9.0.2,<10.0.0)",
     "pytest-cov (>=7.1.0,<8.0.0)",
     "python-dotenv (>=1.2.2,<2.0.0)",
     "click (>=8.3.1,<9.0.0)"
 ]
+
+[tool.poetry]
+package-mode = false
 
 
 [build-system]
@@ -26,6 +29,10 @@ target-version = ["py310"]
 [tool.ruff]
 line-length = 88
 target-version = "py310"
+
+[tool.ruff.lint.per-file-ignores]
+"labs/*/tests/*.py" = ["F401", "F821", "E402"]
+"tests/*.py" = ["F401", "F821", "E402"]
 
 [tool.mypy]
 python_version = "3.10"

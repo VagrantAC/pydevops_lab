@@ -1,6 +1,7 @@
 """Tests for hello script."""
 
 from click.testing import CliRunner
+
 from scripts.hello import hello
 
 
