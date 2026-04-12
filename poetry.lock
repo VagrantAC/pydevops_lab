@@ -394,6 +394,24 @@ typing-extensions = {version = ">=4.6.0", markers = "python_version < \"3.13\""}
 test = ["pytest (>=6)"]
 
 [[package]]
+name = "fire"
+version = "0.7.1"
+description = "A library for automatically generating command line interfaces."
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "fire-0.7.1-py3-none-any.whl", hash = "sha256:e43fd8a5033a9001e7e2973bab96070694b9f12f2e0ecf96d4683971b5ab1882"},
+    {file = "fire-0.7.1.tar.gz", hash = "sha256:3b208f05c736de98fb343310d090dcc4d8c78b2a89ea4f32b837c586270a9cbf"},
+]
+
+[package.dependencies]
+termcolor = "*"
+
+[package.extras]
+test = ["hypothesis (<6.136.0)", "levenshtein (<=0.27.1)", "pip", "pylint (<3.3.8)", "pytest (<=8.4.1)", "pytest-pylint (<=1.1.2)", "pytest-runner (<7.0.0)", "setuptools (<=80.9.0)", "termcolor (<3.2.0)"]
+
+[[package]]
 name = "iniconfig"
 version = "2.3.0"
 description = "brain-dead simple config-ini parsing"
@@ -892,6 +910,21 @@ files = [
 ]
 
 [[package]]
+name = "termcolor"
+version = "3.3.0"
+description = "ANSI color formatting for output in terminal"
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "termcolor-3.3.0-py3-none-any.whl", hash = "sha256:cf642efadaf0a8ebbbf4bc7a31cec2f9b5f21a9f726f4ccbb08192c9c26f43a5"},
+    {file = "termcolor-3.3.0.tar.gz", hash = "sha256:348871ca648ec6a9a983a13ab626c0acce02f515b9e1983332b17af7979521c5"},
+]
+
+[package.extras]
+tests = ["pytest", "pytest-cov"]
+
+[[package]]
 name = "tomli"
 version = "2.4.1"
 description = "A lil' TOML parser"
@@ -977,4 +1010,4 @@ markers = {main = "python_version == \"3.10\""}
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10"
-content-hash = "b156ddac9161dae71ee9b7faa0881f3372660f495abb9323fc3d480a38426bd8"
+content-hash = "d906c44d475271f1b5fe461331c52c7487d0d3f4dd95e14513c0b501796e9744"
